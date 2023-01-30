@@ -1,1 +1,100 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+// HEADER
+header{
+    padding: 15px 0;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 15vh;
+   ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    height: 137%;
+    li{
+        display: flex;
+        align-items: center;
+        &:hover{
+          border-bottom: 5px solid blue;
+        }
+      }
+      a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  
+      &:hover{
+        color: blue;
+      }
+      }
+   }
+  }
+
+//   MAIN
+.jumbotron {
+    .jumbotron {
+        height: 500px;
+        background-image: url('/resources/img/jumbotron.jpg');
+    }
+    .current {
+        color: blue;
+        max-width: 1140px;
+    }
+
+    .black-container {
+        height: 600px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+}
+// FOOTER
+.footer{
+    .link{
+        display: flex;
+        gap: 30px;
+        width: 40%;
+        flex-wrap: wrap;
+    }
+    .container-footer{
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+    }
+    .footerlink{
+    z-index: 1;
+        background-image: url('/resources/img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        ul{
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            li{
+                list-style: none;
+                font-size: 15px;
+                margin: 15px 0;
+                a{
+                    color: grey;
+                }
+            }
+        }
+        .imgcontainer{
+            position: relative;
+            left: 15%;
+            .imgPosition{
+                position: absolute;
+                top: -18%;
+                height: 140%;
+            }
+        }
+    }
+}
